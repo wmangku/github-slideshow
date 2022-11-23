@@ -1,0 +1,9 @@
+{
+	"name": "testprojectknmi",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b46795a1-5bfc-4ecd-837a-072185dafc7c",
+		"tenantId": "4d75d01c-e20b-4b13-8e1d-f731f8ffbb3e"
+	}
+}
