@@ -1,0 +1,25 @@
+{
+	"name": "knmiraw_output",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_dl_knmiwm",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Daggegevens.csv",
+				"folderPath": "selectie",
+				"fileSystem": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

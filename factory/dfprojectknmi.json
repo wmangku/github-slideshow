@@ -1,0 +1,9 @@
+{
+	"name": "dfprojectknmi",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c3da1cb2-5f1f-4dbc-89b4-e0bbc07cadbd",
+		"tenantId": "4d75d01c-e20b-4b13-8e1d-f731f8ffbb3e"
+	}
+}

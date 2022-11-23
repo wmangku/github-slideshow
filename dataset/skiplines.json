@@ -1,0 +1,27 @@
+{
+	"name": "skiplines",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_dl_knmiwm",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "website",
+				"fileSystem": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

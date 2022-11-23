@@ -1,0 +1,23 @@
+{
+	"name": "websiteknmi_input",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_websiteknmi",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "knmi/map/page/klimatologie/gegevens/daggegevens/vorigemaand.zip"
+			},
+			"columnDelimiter": ",",
+			"compressionCodec": "ZipDeflate",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
